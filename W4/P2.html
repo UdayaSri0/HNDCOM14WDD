@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Learning Site</title>
+</head>
+<body>
+    <h1>Welcome to JavaScript Learning</h1>
+    <section>
+        <h2>Introduction to JavaScript</h2>
+        <p>JavaScript is a scripting language used to create interactive web pages. Open your browser console to see the output.</p>
+        <script>
+            console.log('Hello, world!');
+        </script>
+    </section>
+
+    <section>
+        <h2>Variables and Data Types</h2>
+        <p>JavaScript has different types of variables, like <code>let</code>, <code>const</code>, and <code>var</code>.</p>
+        <script>
+            let name = 'John';
+            const age = 25;
+            var isStudent = true;
+            console.log('Name:', name);
+            console.log('Age:', age);
+            console.log('Is student:', isStudent);
+        </script>
+    </section>
+
+    <section>
+        <h2>Functions</h2>
+        <p>Functions are blocks of reusable code. Here is an example:</p>
+        <script>
+            function greet() {
+                console.log('Hello, student!');
+            }
+            greet();
+        </script>
+    </section>
+
+    <section>
+        <h2>Conditionals and Loops</h2>
+        <p>Conditional statements let us make decisions. Loops help us repeat actions:</p>
+        <script>
+            if (age > 18) {
+                console.log('You are an adult.');
+            } else {
+                console.log('You are not an adult.');
+            }
+
+            for (let i = 0; i < 5; i++) {
+                console.log('Loop iteration:', i);
+            }
+        </script>
+    </section>
+
+    <section>
+        <h2>Events</h2>
+        <p>JavaScript can respond to user actions, like clicking a button:</p>
+        <button onclick="sayHello()">Click Me!</button>
+        <script>
+            function sayHello() {
+                alert('Hello, you clicked the button!');
+            }
+        </script>
+    </section>
+
+    <section>
+        <h2>Practice Projects</h2>
+        <ul>
+            <li>Build a simple calculator with basic arithmetic operations.</li>
+            <li>Create a to-do list where you can add and remove tasks.</li>
+            <li>Develop a simple game, like a number guessing game.</li>
+        </ul>
+    </section>
+</body>
+</html>
